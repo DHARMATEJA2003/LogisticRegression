@@ -31,3 +31,4 @@ lr.fit(xtrain,ytrain)
 # %%
 xtest=np.array(xtest).reshape(-1,1)
 lr.predict(xtest)
+
